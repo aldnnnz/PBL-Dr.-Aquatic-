@@ -1,11 +1,5 @@
 <?php
-/**
- * Copyright (c) Since 2024 InnoShop - All Rights Reserved
- *
- * @link       https://www.innoshop.com
- * @author     InnoShop <team@innoshop.com>
- * @license    https://opensource.org/licenses/OSL-3.0 Open Software License (OSL 3.0)
- */
+
 
 namespace InnoShop\Panel\Components;
 
@@ -84,28 +78,28 @@ class Sidebar extends Component
                 'prefixes' => ['customers'],
                 'children' => $this->getCustomerSubRoutes(),
             ],
-            [
-                'title'    => __('panel/menu.top_content'),
-                'icon'     => 'bi-sticky',
-                'prefixes' => ['articles', 'catalogs', 'tags', 'pages'],
-                'children' => $this->getContentSubRoutes(),
-            ],
-            [
-                'title'    => __('panel/menu.top_analytic'),
-                'icon'     => 'bi-bar-chart',
-                'prefixes' => ['analytics', 'analytics_order'],
-                'children' => $this->getAnalyticSubRoutes(),
-            ],
-            [
-                'title'    => __('panel/menu.top_design'),
-                'icon'     => 'bi-palette',
-                'children' => $this->getDesignSubRoutes(),
-            ],
-            [
-                'title'    => __('panel/menu.top_plugin'),
-                'icon'     => 'bi-puzzle',
-                'children' => $this->getPluginSubRoutes(),
-            ],
+            // [
+            //     'title'    => __('panel/menu.top_content'),
+            //     'icon'     => 'bi-sticky',
+            //     'prefixes' => ['articles', 'catalogs', 'tags', 'pages'],
+            //     'children' => $this->getContentSubRoutes(),
+            // ],
+            // [
+            //     'title'    => __('panel/menu.top_analytic'),
+            //     'icon'     => 'bi-bar-chart',
+            //     'prefixes' => ['analytics', 'analytics_order'],
+            //     'children' => $this->getAnalyticSubRoutes(),
+            // ],
+            // [
+            //     'title'    => __('panel/menu.top_design'),
+            //     'icon'     => 'bi-palette',
+            //     'children' => $this->getDesignSubRoutes(),
+            // ],
+            // [
+            //     'title'    => __('panel/menu.top_plugin'),
+            //     'icon'     => 'bi-puzzle',
+            //     'children' => $this->getPluginSubRoutes(),
+            // ],
             [
                 'title'    => __('panel/menu.top_setting'),
                 'icon'     => 'bi-gear',

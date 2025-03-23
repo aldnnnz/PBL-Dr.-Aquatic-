@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <base href="{{ panel_route('home.index') }}">
-  <title>@yield('title', '') - InnoShop</title>
+  <title>@yield('title', '') </title>
   <meta name="keywords" content="@yield('keywords', 'InnoShop, 创新, 开源, CMS, Laravel 11, 多语言, 多货币, Hook, 插件架构, 灵活, 强大')">
   <meta name="generator" content="InnoShop {{ innoshop_version() }}">
   <meta name="asset" content="{{ asset('/') }}">
@@ -14,7 +14,7 @@
   <meta name="api-token" content="{{ session('api_token') }}">
   <link rel="shortcut icon" href="{{ image_origin(system_setting('favicon', 'images/favicon.png')) }}">
 
-  <!-- 基础样式和脚本 -->
+  
   <link rel="stylesheet" href="{{ mix('build/panel/css/bootstrap.css') }}">
   <link rel="stylesheet" href="{{ mix('build/panel/css/app.css') }}">
   <script src="{{ asset('vendor/jquery/jquery-3.7.1.min.js') }}"></script>
